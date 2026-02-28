@@ -1,4 +1,4 @@
-# 🍽 Le Gourmet
+# 🍽 resto-windpouiré
 
 Site web du restaurant Le Gourmet.
 
