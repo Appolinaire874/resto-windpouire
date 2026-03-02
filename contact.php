@@ -13,25 +13,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 <div class="container">
-    <h2>Contactez-nous</h2>
-    
-    <div class="contact-info">
-        <div class="info">
-            <h3>Adresse</h3>
-            <p>123 Rue de la Gastronomie<br>
-            75001 Paris</p>
-            
-            <h3>Téléphone</h3>
-            <p>01 23 45 67 89</p>
-            
-            <h3>Email</h3>
-            <p>contact@legourmet.fr</p>
-        </div>
-        
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-    </div>
     
     <?php if (isset($success)): ?>
         <div class="success"><?php echo $success; ?></div>
@@ -57,6 +38,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             
             <button type="submit" class="btn">Envoyer</button>
         </form>
+    </div>
+
+
+     <h2>Contactez-nous</h2>
+    
+    <div class="contact-info">
+        <div class="info">
+            <h3>Adresse</h3>
+            <p>123 Rue de la Gastronomie<br>
+            75001 Paris</p>
+            
+            <h3>Téléphone</h3>
+            <p>01 23 45 67 89</p>
+            
+            <h3>Email</h3>
+            <p>contact@legourmet.fr</p>
+        </div>
+        
+        <div class="map">
+            <h2 style="text-align: center;"> Se rendre sur notre site via la localisation</h2>
+            <iframe src="https://www.google.com/maps/embed?..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </div>
 </div>
 
